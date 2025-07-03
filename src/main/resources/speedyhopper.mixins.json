@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "epie.speedyhopper.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "speedyhopper.refmap.json",
+  "mixins": [
+    "MixinHopperBlockEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
